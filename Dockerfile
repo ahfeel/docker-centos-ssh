@@ -1,6 +1,6 @@
 # CentOS 6 with ssh + custom script to setup passwordless SSH from ClusterControl container.
 
-FROM centos:6
+FROM centos:8
 MAINTAINER Severalnines <info@severalnines.com>
 
 RUN yum -y install epel-release
